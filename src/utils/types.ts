@@ -33,3 +33,11 @@ export interface ITodo {
   title: string;
   completed: boolean;
 }
+
+export interface BlockInfo {
+  backgroundColor: string;
+  textColor: string;
+  percentage: number;
+  headerText: string;
+  title: string;
+}
